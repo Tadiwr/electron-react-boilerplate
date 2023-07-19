@@ -1,15 +1,10 @@
 {
-  "description": "A foundation for scalable desktop apps",
+  "description": "A simplistic text editor",
   "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "typescript",
-    "ts",
-    "sass",
-    "webpack",
-    "hot",
-    "reload"
+    "text editor",
+    "context",
+    "text",
+    "editor"
   ],
   "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
   "bugs": {
@@ -21,15 +16,15 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
+    "name": "Codapt",
+    "email": "tshxng@gmail.com",
     "url": "https://electron-react-boilerplate.js.org"
   },
   "contributors": [
     {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
+      "name": "Tadiwanashe Shangwa",
+      "email": "tshxng@gmail.com",
+      "url": "https://github.com/tadiwr"
     }
   ],
   "main": "./src/main/main.ts",
