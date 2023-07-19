@@ -75,6 +75,7 @@ const createWindow = async () => {
     height: 728,
     icon: getAssetPath('icon.png'),
     webPreferences: {
+      devTools: false,
       preload: app.isPackaged
         ? path.join(__dirname, 'preload.js')
         : path.join(__dirname, '../../.erb/dll/preload.js'),
@@ -98,6 +99,8 @@ const createWindow = async () => {
     mainWindow = null;
   });
 
+  mainWindow.setTitle("Context Pad")
+
   const menuBuilder = new MenuBuilder(mainWindow);
   menuBuilder.buildMenu();
 
@@ -114,7 +117,9 @@ const createWindow = async () => {
 
 /**
  * Add event listeners...
+ * 
  */
+
 
 app.on('window-all-closed', () => {
   // Respect the OSX convention of having the application in memory even
